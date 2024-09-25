@@ -37,7 +37,7 @@ def images_to_video(image_folder, output_video, fps=30):
     print(f"Video saved as {output_video}")
 
 # Example usage
-image_folder = 'C:/Users/gram15/Desktop/Working_dir/data/video3_LDC'
-output_video = 'video3_LDC.mp4'
+image_folder = '이미지들이 들어있는 폴더'
+output_video = '영상 저장 경로 및 영상 이름'
 fps = 30  # Frames per second
 images_to_video(image_folder, output_video, fps)
